@@ -34,25 +34,24 @@ SciCat consists of:
 - `⛺️CAMP`, evaluation metrics for chart de-rendering.
 
 🧑‍🔬 **RealCat:** Real Chart
+
 <p align="center">
  <img width="100%" src="./assets/realcat_sample.png"/>
 </p>
 
-> This dataset is suitable for testing purposes.
+> This dataset is suitable for testing purposes. Download [here](https://drive.google.com/file/d/1K9zpVGvX73Qqsu33v0kfXq1_RLBCCkky/view?usp=sharing).
 
 `RealCat` dataset comprises 1,000 chart images extracted from chemical open journals, comprising 741 line charts, 220 scatter charts, and 39 charts combining line and scatter elements.
 
 We first gathered PDFs from six distinct open-access scientific journals: Biomedical Central Chemistry, three jorunals from MDPI (Catalysts, Polymers, Molecules), Frontiers in Chemistry and PLOS ONE Chemistry.
 Despite being open journals, each paper can have its own license, so we filtered the PDFs to include only those with a Creative Commons CC-BY license or equivalent. 
 
-
-
 🤖 **SynCat:** Synthetic Chart
 <p align="center">
  <img width="100%" src="./assets/syncat_sample.png"/>
 </p>
 
-> This dataset is suitable for training purposes.
+> This dataset is suitable for training purposes. Download [here](https://drive.google.com/file/d/1Q9jTLlOFqBYc3z668SJcWThHKFvm07W2/view?usp=drive_link).
 
 `SynCat` consists of 50,000 training images and 5,000 evaluation images. The dataset includes a variety of styles and realistic chart data that can be found in scientific literature. The functions used include random, polynomial, periodic, and Gaussian, among others, which can be further expanded.
 
