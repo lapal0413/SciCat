@@ -64,7 +64,8 @@ Both SynCat and RealCat follow the following annotation format.
  <img width="100%" src="./assets/ann_scheme.png"/>
 </p>
 
-For `["meta"]["type"]`, each chart image is annotated with a 1 for elements it contains and a 0 for elements it does not, from the following list: `[line, bar, scatter, trendline, waveform, spectrum]`.
+> [!NOTE]
+> For `["meta"]["type"]`, each chart image is annotated with a 1 for elements it contains and a 0 for elements it does not, from the following list: `[line, bar, scatter, trendline, waveform, spectrum]`.
 
 
 ## ⛺️ What is CAMP ? 
@@ -81,17 +82,26 @@ For `["meta"]["type"]`, each chart image is annotated with a 1 for elements it c
 - **Axis accuracy**: Measures how closely the predicted x-axis range matches the ground truth.
 - **Length accuracy** : Compares the length of the line to measure the frequency of outliers.
 
-
-
 Below, we provide a general guideline for evaluating the output of a chart de-rendering model with `camp.py`.
 
 ```bash
 python camp.py --pred {path/to/pred.json} --gt {path/to/gt.json}
 ```
 
-## Overview of benchmark
+## 🧗 Overview of benchmark
 
-## License
+### RealCat Benchmark
+<p align="center">
+ <img width="100%" src="./assets/realcat_list.png"/>
+</p>
+
+### SynCat Benchmark
+<p align="center">
+ <img width="100%" src="./assets/syncat_list.png"/>
+</p>
+
+
+## 🤝 License
 This project is released under a [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
