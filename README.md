@@ -58,7 +58,7 @@ Despite being open journals, each paper can have its own license, so we filtered
 <!-- We have also uploaded the `SynCat` generation code. -->
 
 **Annotation Format**   
-Both SynCat and RealCat follow the following annotation format.
+Both SynCat and RealCat follow the following annotation format. `data` > `name` is structured as a list type to represent entities with multiple names.
 <p align="center">
  <img width="100%" src="./assets/ann_scheme.png"/>
 </p>
