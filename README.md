@@ -13,7 +13,7 @@
 
 ## 📝 News
 <!-- - **[2024/06]** We have released the benchmark metric CAMP. -->
-- **[2024/06]** We have released the dataset [**SynCat**](https://drive.google.com/file/d/1Q9jTLlOFqBYc3z668SJcWThHKFvm07W2/view?usp=drive_link) and [**RealCat**](https://drive.google.com/file/d/1K9zpVGvX73Qqsu33v0kfXq1_RLBCCkky/view?usp=sharing).
+- **[2024/06]** We have released the dataset [**SynCat**](https://drive.google.com/file/d/1PwJ1ahfOOVy-71dVZ-ZKF5bU8XoMYjvw/view?usp=drive_link) and [**RealCat**](https://drive.google.com/file/d/1K9zpVGvX73Qqsu33v0kfXq1_RLBCCkky/view?usp=sharing).
 
 <!-- ## TL;DR -->
 
