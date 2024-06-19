@@ -51,7 +51,7 @@ Despite being open journals, each paper can have its own license, so we filtered
  <img width="100%" src="./assets/syncat_sample.png"/>
 </p>
 
-> This dataset is suitable for training purposes. Download [here](https://drive.google.com/file/d/1Q9jTLlOFqBYc3z668SJcWThHKFvm07W2/view?usp=drive_link).
+> This dataset is suitable for training purposes. Download [here](https://drive.google.com/file/d/1PwJ1ahfOOVy-71dVZ-ZKF5bU8XoMYjvw/view?usp=drive_link).
 
 `SynCat` consists of 50,000 training images and 5,000 evaluation images. The dataset includes a variety of styles and realistic chart data that can be found in scientific literature. The functions used include random, polynomial, periodic, and Gaussian, among others, which can be further expanded.
 
