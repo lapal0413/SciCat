@@ -33,12 +33,12 @@ def eval_num(num):
 def convert_to_float(data):
     error_flag = False
 
-    try: # xmin가 없거나 string type이어야만 하는 경우 고려
+    try: # in case of no xmin or must be string type
         data['xmin'], data['xmax'], data['ymin'], data['ymax'] = map(eval_num, (data['xmin'], data['xmax'], data['ymin'], data['ymax']))
     except:
         pass
     
-    # 변환되는 데이터만 가져올 것.
+    # get only transferable data
     for item in data['data']:
         new_points = []
         for points in item['points']:
@@ -73,7 +73,7 @@ my_interpolation = lambda x, a1, a2, b1, b2: (x - a1) * (b2 - b1) / (a2 - a1) + 
 get_length = lambda x, y: np.sum(np.sqrt(np.diff(x)**2 + np.diff(y)**2))
 get_ocr_score = lambda x, y, cer: 100*(1 - min(1, cer([x], [y]).item()))
 
-def eval_json(pred_data, gt_data, error_statistics, cer, steps=100, normed_x_margin=1, visualize=False): # json 파일 레벨
+def eval_json(pred_data, gt_data, error_statistics, cer, steps=100, normed_x_margin=1, visualize=False): # json file level
     if len(pred_data['data'])==0:
         error_statistics['no_data'] += 1
         return init_result_dict()
@@ -90,7 +90,7 @@ def eval_json(pred_data, gt_data, error_statistics, cer, steps=100, normed_x_mar
     matrix_shape = (len(gt_data['data']), len(pred_data['data']))
     score_matrix_line, score_matrix_length, score_matrix_axis, score_matrix_ocr = (np.zeros(matrix_shape) for _ in range(4))
 
-    for index1, t_structure in enumerate(gt_data['data']): # 엔티티 레벨        
+    for index1, t_structure in enumerate(gt_data['data']): # entity level
         try:
             t_xlist, t_ylist = np.array(t_structure['points'], dtype=float).T
         except:
