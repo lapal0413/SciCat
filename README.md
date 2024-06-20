@@ -13,7 +13,8 @@
 
 ## 📝 News
 <!-- - **[2024/06]** We have released the benchmark metric CAMP. -->
-- **[2024/06]** CAMP 2.0 is released. The readability of the code has been improved.
+- **[2024/06]** We have opened a **parser zoo** for the convenience of training and evaluation.
+- **[2024/06]** **CAMP 2.0** is released. The readability of the code has been improved.
 - **[2024/06]** We have released the dataset [**SynCat**](https://drive.google.com/file/d/1PwJ1ahfOOVy-71dVZ-ZKF5bU8XoMYjvw/view?usp=drive_link) and [**RealCat**](https://drive.google.com/file/d/1K9zpVGvX73Qqsu33v0kfXq1_RLBCCkky/view?usp=sharing).
 
 <!-- ## TL;DR -->
