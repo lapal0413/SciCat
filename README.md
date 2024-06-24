@@ -112,6 +112,8 @@ This project is released under a [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
+## 📨 contact
+If you have any questions or inquiries regarding the usage of this repository, please feel free to reach out to us at seungjun.lee@lgresearch.ai, kwangrok.ryoo@lgresearch.ai. Your feedback and engagement are highly valued, and we look forward to hearing from you.
 
 <!-- ## 💾 Download SciCat dataset
 SciCat 은 RealCat과 
