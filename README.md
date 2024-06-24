@@ -57,6 +57,8 @@ Despite being open journals, each paper can have its own license, so we filtered
 
 `SynCat` consists of 50,000 training images and 5,000 evaluation images. The dataset includes a variety of styles and realistic chart data that can be found in scientific literature. The functions used include random, polynomial, periodic, and Gaussian, among others, which can be further expanded.
 
+Stay tuned! The Syncat generation code will be uploaded shortly!
+
 <!-- We have also uploaded the `SynCat` generation code. -->
 
 **Annotation Format**   
