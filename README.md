@@ -57,7 +57,7 @@ Despite being open journals, each paper can have its own license, so we filtered
 
 `SynCat` consists of 50,000 training images and 5,000 evaluation images. The dataset includes a variety of styles and realistic chart data that can be found in scientific literature. The functions used include random, polynomial, periodic, and Gaussian, among others, which can be further expanded.
 
-Stay tuned! The `SynCat` generation code will be uploaded shortly!
+To get the SynCat generation code, please contact us by email.
 
 <!-- We have also uploaded the `SynCat` generation code. -->
 
@@ -103,6 +103,7 @@ python camp.py --pred {path/to/pred.json} --gt {path/to/gt.json}
  <img width="100%" src="./assets/syncat_list.png"/>
 </p>
 
+> For GPT evaluation, `gpt-4o-2024-05-13` and `gpt-4-turbo-2024-04-09` were used.
 
 ## 🤝 License
 This project is released under a [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
